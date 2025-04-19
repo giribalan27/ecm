@@ -3,9 +3,9 @@ import {Button} from "@/components/ui/button";
 
 const Page = () => {
 	return (
-		<div>
-			<Button> Hello </Button>
-        </div>
+		<div className={"font-bold text-4xl text-black underline"}>
+			Hello world
+		</div>
 	)
 }
 export default Page
